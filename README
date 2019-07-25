@@ -1,0 +1,23 @@
+﻿Deaconu Andreea-Carina
+324CC
+
+Tema - Supermarket
+
+	Gradul de dificultate al temei nu mi s-a părut unul ridicat; principala greutate fiind multitudinea de conexiuni între clase. Am alocat un timp la început pentru a-mi pune ideile în ordine și a alege un punct de start. Fiind un proiect amplu, a fost și un volum destul de mare de cod de scris. Aproximând, mi-a luat cam o săptămână, câteva ore pe zi.
+Am abordat și toate bonusurile.
+
+Ce am adăugat în fiecare clasă:
+- Metode toString() pentru a respecta formatul de output la Cerința 1.
+
+- În Store: getCustomer(String n), folosind-o în clasa Test în cadrul evenimentelor specifice unui anumit client (de exemplu, „getTotal… CustomerName” sau „addProduct… CustomerName”) și getItem(Integer id), folosind-o atunci când modific prețul unui produs (în clasa Customer, după ce primește notificare) sau când adaug/ elimin unul.
+
+- În Department: câte un vector pentru clienții care au cumpărat cel puțin un produs și cei care au în Shopping Cart cel puțin un produs (la Cerința 2 există opțiunea Buy All care distinge aceste două categorii de clienți).
+Am adăugat metoda getObservers(), care întoarce vectorul wishers. O folosesc la Cerința 2 bonus, în fereastra unui anumit Departament, pentru a afișa observatorii.
+Conform cerinței, metodele enter(Customer) și getCustomers() se referă la clienții ce au cumpărat cel puțin un produs, deci buyers.
+
+- În Item: metoda getCopy() ce returnează o copie a produsului și o folosesc când adaug un produs în ShoppingCart/ WishList, deoarece, la apelul metodei accept(), trebuie să se modifice doar „copia” produsului din listele respective, nu și obiectul din Store și atribute pentru bonusurile Cerinței 2
+
+- În ItemList: sortarea se face la adăugare (se determină poziția noului element); nu am făcut clasa abstractă, întrucât am reușit să implementez toate metodele din ea
+Am adăugat metoda isInterestedIn(Integer) ce verifică dacă în listă există cel puțin un produs aparținând departamentului cu acel ID (pentru a verifica dacă un client trebuie șters de la wishers/ customers).
+
+

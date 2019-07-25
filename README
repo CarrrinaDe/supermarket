@@ -1,10 +1,4 @@
-﻿Deaconu Andreea-Carina
-324CC
-
 Tema - Supermarket
-
-	Gradul de dificultate al temei nu mi s-a părut unul ridicat; principala greutate fiind multitudinea de conexiuni între clase. Am alocat un timp la început pentru a-mi pune ideile în ordine și a alege un punct de start. Fiind un proiect amplu, a fost și un volum destul de mare de cod de scris. Aproximând, mi-a luat cam o săptămână, câteva ore pe zi.
-Am abordat și toate bonusurile.
 
 Ce am adăugat în fiecare clasă:
 - Metode toString() pentru a respecta formatul de output la Cerința 1.
